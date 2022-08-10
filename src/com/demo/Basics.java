@@ -19,6 +19,16 @@ public class Basics {
 		int total = priceOfVeggies + PriceOfBag;
 		System.out.println("The total value is : " + total);
 		
+		Boolean isPresent = true; // boolean data type 
+		short price = 32767; // short values from -32,768 to 32,768
+		
+		long PNRNum = 1445611459754L; // long value 
+		
+		float marks = 45.5f;
+		
+		String address = "DL building tower 2 , Noida sector 54";
+		String NAme= "Nishant Gupta";
+		
 		
 	
 		
