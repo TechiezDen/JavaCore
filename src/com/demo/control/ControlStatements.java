@@ -14,7 +14,7 @@ public class ControlStatements {
 		
 		else {
 			System.out.println("Akshay is elder than nishant ");
-		}
+		} // define two variables make Nishant address = BLR
 	}
 
 }
