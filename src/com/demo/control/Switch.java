@@ -7,7 +7,7 @@ public class Switch {
 		
 		switch(Banker) {
 		case "Axis" : System.out.println("Nishant's account is in axis bank");
-		break;
+		break; 
 		case "HDFC": System.out.println("Nishant's bank acc is in hdfc");
 		break;
 		case "Kotak": System.out.println("Nishant's bank acc is in kotak mahindra bank ");
