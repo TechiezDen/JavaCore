@@ -33,15 +33,17 @@ public class Account {
 			System.out.println("The withdrawn balance is : Rupees:" + amt);
 		}
 	}
-	// method to diplay all the acc details 
+
+	// method to diplay all the acc details
 	void display() {
-		System.out.println("Account number: " + acc_no + " Account Holder's name: " + name + " Account Balance: " + amount);
+		System.out.println(
+				"Account number: " + acc_no + " Account Holder's name: " + name + " Account Balance: " + amount);
 	}
 
 	public static void main(String[] args) {
 		Account a1 = new Account();
 		Account a2 = new Account();
-		
+
 		a2.insert(56790, "Peter", 25000);
 		a1.insert(56789, "Nishant", 100000);
 		a2.display();
